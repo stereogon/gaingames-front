@@ -1,0 +1,7 @@
+<h1 class="heading">All Workouts</h1>
+<div class="list-container">
+  <app-workout-item
+    *ngFor="let workout of workouts"
+    [workout]="workout"
+  ></app-workout-item>
+</div>

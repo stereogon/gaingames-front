@@ -1,0 +1,23 @@
+<mat-card>
+  <div class="main-section">
+    <mat-card-content>
+      <div class="main-content">
+        <h1>Join the gyming experience of the future.</h1>
+        <div class="button-container">
+          <button
+            (click)="handleButtonClick()"
+            mat-stroked-button
+            color="basic"
+            class="checkout-btn"
+          >
+            Checkout Workouts
+          </button>
+        </div>
+      </div>
+    </mat-card-content>
+  </div>
+</mat-card>
+
+<mat-card-content>
+  <app-workout-list></app-workout-list>
+</mat-card-content>
